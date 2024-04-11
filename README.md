@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ryotess/ChatGen">
-    <img src="images/logo.png" alt="Logo" width="1024" height="512">
+    <img src="images/logo.png" alt="Logo" width="512" height="256">
   </a>
 
 <h3 align="center">ChatGen--An Algorithm to generate coversation history for training llm/chatbot</h3>
