@@ -42,12 +42,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -67,9 +65,7 @@
 
 
 ### Built With
-
-* [![Next.js][Next.js]][Next-url]
-
+* [![Python][Python]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,31 +94,20 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Try on Sample Data
+Please open the [sample code](https://github.com/Ryotess/ChatGen/blob/main/sample_code.ipynb) and follow the step to generate your own dataset.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Please follow the [sample code]()
+Please follow the [sample code](https://github.com/Ryotess/ChatGen/blob/main/sample_code.ipynb)
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/Ryotess/ChatGen/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -156,6 +141,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 E-Mail: jessforwork2023@gmail.com
+
 Project Link: [https://github.com/Ryotess/ChatGen](https://github.com/Ryotess/ChatGen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -165,9 +151,7 @@ Project Link: [https://github.com/Ryotess/ChatGen](https://github.com/Ryotess/Ch
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,5 +164,5 @@ Project Link: [https://github.com/Ryotess/ChatGen](https://github.com/Ryotess/Ch
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/shaoyanchen
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Python]: https://img.shields.io/pypi/pyversions/numpy
+[Python-url]: https://numpy.org/
