@@ -74,8 +74,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Please follow the instructions to install and set up the environment for this project.
 
 ### Installation
 
@@ -95,7 +94,7 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Try on Sample Data
-Please open the [sample code](https://github.com/Ryotess/ChatGen/blob/main/sample_code.ipynb) and follow the step to generate your own dataset.
+For a sample demo, Please open the [sample code](https://github.com/Ryotess/ChatGen/blob/main/sample_code.ipynb) and follow the step to generate your own dataset.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
