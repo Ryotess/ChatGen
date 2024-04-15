@@ -65,7 +65,7 @@
 
 
 ### Built With
-* [![Python][Python]][Python-url]
+[![Python][Python]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
