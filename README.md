@@ -14,7 +14,7 @@
 <h3 align="center">ChatGen--An Algorithm to generate coversation history for training llm/chatbot</h3>
 
   <p align="center">
-    This is a algorithm that can help you generate your own custom conversation dataset with history to be used to train LLM/ChatBot
+    This is an algorithm that can help you generate your own custom conversation dataset with history to be used to train LLM/ChatBot
     <br />
     <a href="https://github.com/Ryotess/ChatGen"><strong>Explore the docs »</strong></a>
     <br />
@@ -41,14 +41,13 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#instruction">Instruction</a></li>
+        <li><a href="#quick-start">Quick Start</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#instruction">Instruction</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
