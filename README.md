@@ -19,8 +19,6 @@
     <a href="https://github.com/Ryotess/ChatGen"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Ryotess/ChatGen">View Demo</a>
-    ·
     <a href="https://github.com/Ryotess/ChatGen/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/Ryotess/ChatGen/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -43,6 +41,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#instruction">Instruction</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -57,9 +56,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -93,18 +89,46 @@ Please follow the instructions to install and set up the environment for this pr
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Try on Sample Data
-For a sample demo, Please open the [sample code](https://github.com/Ryotess/ChatGen/blob/main/sample_code.ipynb) and follow the step to generate your own dataset.
+###  Quick Start
+Here is the quick start demo base on sample dataset, if you wanna use this project on your own dataset, please read the [instruction](https://github.com/Ryotess/ChatGen/blob/main/instruction.ipynb)
+
+```sh
+# Import packages
+from chatgen.chat_algo import ChatAlgo
+from chatgen.data_loader import load_xlsx, create_input_data
+```
+```sh
+# Set data path
+input_file = "./dataset/sample_dataset.xlsx" # sample dataset
+sheet_name = 'QuestionAskingMerge' # the sheet we would use
+output_file = "./output/conversations.json" # output path(please remember to create an ./output directory)
+```
+
+```sh
+# Load raw data & Create input data
+data = load_xlsx(input_file, sheet_name)
+input_data = create_input_data(data)
+```
+```sh
+# Create conversation dataset
+chat_algo = ChatAlgo(input_data) # initialization
+chat_algo.create_chat_history() # generate
+```
+
+```sh
+# save to JSON
+chat_algo.to_json(output_file)
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Instruction
+Here we provide a brief instruction of our algorithm design in this project and sample demo.  
+Please open the [instruction](https://github.com/Ryotess/ChatGen/blob/main/instruction.ipynb) and follow the steps to get a more comprehensive understand of this project.
 
-Please follow the [sample code](https://github.com/Ryotess/ChatGen/blob/main/sample_code.ipynb)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,15 +166,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 E-Mail: jessforwork2023@gmail.com
 
 Project Link: [https://github.com/Ryotess/ChatGen](https://github.com/Ryotess/ChatGen)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
